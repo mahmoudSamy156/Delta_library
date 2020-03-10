@@ -1,0 +1,14 @@
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+@media (min-width:320px){
+	header .slider{min-height:0px;}
+	header .slider .intro{padding-top: 35px!important;}
+	header .slider .image {padding-top: 35px!important;}
+	header .slider .intro h1{ font-size: 2.2rem!important;}
+	}
+}
